@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+#contenido {
+    width: 950px;
+    margin:auto;
+}
+header {
+    width: 950px;
+    height: 100px;
+    background-color: #F2E205;
+}
+h1{
+    font-family:'Lobster Two', cursive;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #F28705;
+}
+nav {
+    text-align: center;
+    background-color: #4992BF;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+nav ul li a:hover {
+    color: #000000;
+}
+section {
+    width: 750px;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 0px 5px #000000;
+    font-size: 12px;
+}
+aside {
+    width: 185px;
+    height: 400px;
+    background-color: white;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    box-shadow: 0px 5px #000000;
+}
+aside:nth-of-type(1) {
+    height: 45px;
+    background-color: #dddddd;
+    text-align: center;
+}
+footer {
+    clear: both;
+    width: 950px;
+    height: 50px;
+    background-color: #F2CB05;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 2px #F2CB05 ;
+    line-height: 50px;
+}
+h3 {
+    font-size: small;
+}
